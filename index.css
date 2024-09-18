@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, #046694, #02421a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    overflow: hidden;
+}
+.my-form{
+    margin-bottom: 20px;
+}
+.my-form label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.my-form input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.but{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.remember input{
+    margin-right: 10px;
+}
+
+.Forgot{
+    font-size: 14px;
+}
+.Forgot a {
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+button{
+    background-color: #2980b9;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 107%;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: red;
+}
+.lip{
+    background-color: #013a27;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    width: 400px;
+    text-align: left;
+}
+.lip h2{
+color: #fff;
+margin-bottom: 20px;
+}
